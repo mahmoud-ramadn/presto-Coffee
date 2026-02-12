@@ -229,17 +229,7 @@ const ManagerSection = () => {
               {isAr ? "المدير التنفيذي" : "The Founder & CEO"}
             </p>
           </div>
-
-          {/* Name */}
-          <h2
-            ref={nameRef}
-            className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-gradient-gold mb-4 leading-tight"
-            key={isAr ? "ar" : "en"}
-          >
-            محمد قدرى إمام
-          </h2>
-
-          {/* Subtitle */}
+          <h2 ref={nameRef} className=" font-display text-5xl md:text-6xl  relative z-10 text-white lg:text-7xl font-bold text-gradient-gold mb-4 ">Mohamed Qadry Imam</h2>
           <p className="text-muted-foreground font-body text-sm md:text-base mb-8 italic">
             {isAr
               ? "رائد في مجال بذور القهوة الفاخرة"
